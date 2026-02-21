@@ -4,32 +4,39 @@
 ![Coverage](https://img.shields.io/badge/Coverage-ch1s0%20→%20ch7s1-success)
 ![Type](https://img.shields.io/badge/Archive-Playlists%20%26%20Formats-informational)
 
-Comprehensive archive of Fortnite core modes, Arena/Ranked systems, LTMs and competitive formats.  
-Includes internal Unreal Engine playlist paths and season support ranges.
+Comprehensive historical archive of Fortnite public playlists, including:
+
+- Core Battle Royale modes
+- Arena & Ranked systems
+- Limited Time Modes (LTMs) with team-size variants
+- Competitive formats
+- Expansion experiences (LEGO, Racing, Festival)
+
+This repository documents publicly released playlists only.
 
 ---
 
 # Navigation
 
-- [Timeline Overview](#timeline-overview)
-- [Core Battle Royale Modes](#core-battle-royale-modes)
-- [Arena (ch1 -> ch4)](#arena-ch1---ch4)
-- [Ranked (ch4s3 -> ch7s1)](#ranked-ch4s3---ch7s1)
-- [Limited Time Modes (LTMs)](#limited-time-modes-ltms)
-- [Competitive Formats](#competitive-formats)
-- [Modern Expansion Modes (ch5 -> ch7)](#modern-expansion-modes-ch5---ch7)
+- Timeline Overview
+- Core Battle Royale Modes
+- Sandbox Modes
+- Arena (Showdown Era)
+- Ranked (Modern Era)
+- Limited Time Modes (LTMs)
+- Competitive Formats
+- Expansion Modes
 
 ---
 
 # Timeline Overview
 
-| Mode        | ch1 | ch2 | ch3 | ch4 | ch5 | ch6 | ch7 |
+| Mode        | Ch1 | Ch2 | Ch3 | Ch4 | Ch5 | Ch6 | Ch7 |
 |------------|-----|-----|-----|-----|-----|-----|-----|
 | Solos      | ✓   | ✓   | ✓   | ✓   | ✓   | ✓   | ✓   |
 | Duos       | ✓   | ✓   | ✓   | ✓   | ✓   | ✓   | ✓   |
 | Trios      | –   | ✓   | ✓   | ✓   | ✓   | ✓   | ✓   |
 | Squads     | ✓   | ✓   | ✓   | ✓   | ✓   | ✓   | ✓   |
-| Creative   | ✓   | ✓   | ✓   | ✓   | ✓   | ✓   | ✓   |
 | Arena      | ✓   | ✓   | ✓   | ✓   | –   | –   | –   |
 | Ranked     | –   | –   | –   | ✓   | ✓   | ✓   | ✓   |
 | Zero Build | –   | –   | ✓   | ✓   | ✓   | ✓   | ✓   |
@@ -58,20 +65,12 @@ Includes internal Unreal Engine playlist paths and season support ranges.
 /Game/Athena/Playlists/Playlist_DefaultSquad.Playlist_DefaultSquad
 ```
 
-### Creative
-`ch1s7 -> ch7s1`
-```
-/Game/Athena/Playlists/Playlist_Creative.Playlist_Creative
-```
+---
 
-## Team Rumble
-`ch1s6 -> ch7s1`
-```
-/Game/Athena/Playlists/Playlist_TeamRumble.Playlist_TeamRumble
-```
+# Zero Build
 
-## Zero Build
-`ch3s2 -> ch7s1`
+Introduced: Chapter 3 Season 2
+
 ```
 /Game/Athena/Playlists/Playlist_NoBuildSolo.Playlist_NoBuildSolo
 /Game/Athena/Playlists/Playlist_NoBuildDuo.Playlist_NoBuildDuo
@@ -80,9 +79,33 @@ Includes internal Unreal Engine playlist paths and season support ranges.
 
 ---
 
-# Arena (ch1 -> ch4)
+# Sandbox Modes
 
-Arena system active from `ch1s8 -> ch4s2`.
+## Creative (Ch1S7 → Present)
+```
+/Game/Athena/Playlists/Playlist_Creative.Playlist_Creative
+```
+
+## Playground (Ch1S4 → Ch1S9)
+```
+/Game/Athena/Playlists/Playlist_Playground.Playlist_Playground
+```
+
+## Battle Lab (Ch2S1 → Ch4S4)
+```
+/Game/Athena/Playlists/Playlist_BattleLab.Playlist_BattleLab
+```
+
+## Team Rumble (Ch1S6 → Present)
+```
+/Game/Athena/Playlists/Playlist_TeamRumble.Playlist_TeamRumble
+```
+
+---
+
+# Arena (Showdown Era)
+
+Active: Ch1S8 → Ch4S2
 
 ```
 /Game/Athena/Playlists/Showdown/Playlist_Showdown_Solo.Playlist_Showdown_Solo
@@ -92,9 +115,9 @@ Arena system active from `ch1s8 -> ch4s2`.
 
 ---
 
-# Ranked (ch4s3 -> ch7s1)
+# Ranked (Modern System)
 
-Replaced Arena starting in Chapter 4 Season 3.
+Active: Ch4S3 → Present
 
 ```
 /Game/Athena/Playlists/Playlist_Ranked_Solo.Playlist_Ranked_Solo
@@ -107,116 +130,244 @@ Replaced Arena starting in Chapter 4 Season 3.
 
 # Limited Time Modes (LTMs)
 
-<details>
-<summary>Expand LTM Archive</summary>
+Only publicly released variants included.
 
-### 50v50  
-`ch1s3 -> ch1s9, ch4sOG`
+---
+
+## Solid Gold
+Team Sizes:
+- Solo
+- Duos
+- Squads
+- 50s
+
+```
+/Game/Athena/Playlists/LTMs/Playlist_SolidGold_Solo.Playlist_SolidGold_Solo
+/Game/Athena/Playlists/LTMs/Playlist_SolidGold_Duos.Playlist_SolidGold_Duos
+/Game/Athena/Playlists/LTMs/Playlist_SolidGold_Squads.Playlist_SolidGold_Squads
+/Game/Athena/Playlists/LTMs/Playlist_SolidGold_50s.Playlist_SolidGold_50s
+```
+
+---
+
+## High Explosives
+Team Sizes:
+- Solo
+- Duos
+- Squads
+- 50s
+
+```
+/Game/Athena/Playlists/LTMs/Playlist_HighExplosives_Solo.Playlist_HighExplosives_Solo
+/Game/Athena/Playlists/LTMs/Playlist_HighExplosives_Duos.Playlist_HighExplosives_Duos
+/Game/Athena/Playlists/LTMs/Playlist_HighExplosives_Squads.Playlist_HighExplosives_Squads
+/Game/Athena/Playlists/LTMs/Playlist_HighExplosives_50s.Playlist_HighExplosives_50s
+```
+
+---
+
+## One Shot
+Team Sizes:
+- Solo
+- Duos
+- Squads
+
+```
+/Game/Athena/Playlists/LTMs/Playlist_OneShot_Solo.Playlist_OneShot_Solo
+/Game/Athena/Playlists/LTMs/Playlist_OneShot_Duos.Playlist_OneShot_Duos
+/Game/Athena/Playlists/LTMs/Playlist_OneShot_Squads.Playlist_OneShot_Squads
+```
+
+---
+
+## Sniper Shootout
+Team Sizes:
+- Solo
+- Duos
+- Squads
+
+```
+/Game/Athena/Playlists/LTMs/Playlist_Sniper_Solo.Playlist_Sniper_Solo
+/Game/Athena/Playlists/LTMs/Playlist_Sniper_Duos.Playlist_Sniper_Duos
+/Game/Athena/Playlists/LTMs/Playlist_Sniper_Squads.Playlist_Sniper_Squads
+```
+
+---
+
+## Soaring
+Team Sizes:
+- Solo
+- Duos
+- 50s
+
+```
+/Game/Athena/Playlists/LTMs/Playlist_Soaring_Solo.Playlist_Soaring_Solo
+/Game/Athena/Playlists/LTMs/Playlist_Soaring_Duos.Playlist_Soaring_Duos
+/Game/Athena/Playlists/LTMs/Playlist_Soaring_50s.Playlist_Soaring_50s
+```
+
+---
+
+## Siphon
+Team Sizes:
+- Solo
+- Duos
+- Squads
+
+```
+/Game/Athena/Playlists/LTMs/Playlist_Siphon_Solo.Playlist_Siphon_Solo
+/Game/Athena/Playlists/LTMs/Playlist_Siphon_Duos.Playlist_Siphon_Duos
+/Game/Athena/Playlists/LTMs/Playlist_Siphon_Squads.Playlist_Siphon_Squads
+```
+
+---
+
+## Unvaulted
+Team Sizes:
+- Solo
+- Squads
+
+```
+/Game/Athena/Playlists/LTMs/Playlist_Unvaulted_Solo.Playlist_Unvaulted_Solo
+/Game/Athena/Playlists/LTMs/Playlist_Unvaulted_Squads.Playlist_Unvaulted_Squads
+```
+
+---
+
+## Floor Is Lava
+Team Sizes:
+- Duos
+- Squads
+
+```
+/Game/Athena/Playlists/LTMs/Playlist_Lava_Duos.Playlist_Lava_Duos
+/Game/Athena/Playlists/LTMs/Playlist_Lava_Squads.Playlist_Lava_Squads
+```
+
+---
+
+## 50v50
+Large Team Only
+
 ```
 /Game/Athena/Playlists/LTMs/Playlist_50v50.Playlist_50v50
 ```
 
-### Solid Gold  
-`ch1s3 -> ch7s1 (rotational)`
+---
+
+## Disco Domination
+Squads Only
+
 ```
-/Game/Athena/Playlists/LTMs/Playlist_SolidGold.Playlist_SolidGold
+/Game/Athena/Playlists/LTMs/Playlist_DiscoDomination.Playlist_DiscoDomination
 ```
 
-### Sniper Shootout  
-`ch1s2 -> ch3s4`
+---
+
+## Endgame
+Large Team Only
+
 ```
-/Game/Athena/Playlists/LTMs/Playlist_Sniper.Playlist_Sniper
+/Game/Athena/Playlists/LTMs/Playlist_Endgame.Playlist_Endgame
 ```
 
-### High Explosives  
-`ch1s4 -> ch7s1 (rotational)`
+---
+
+## Storm King
+Squads PvE
+
 ```
-/Game/Athena/Playlists/LTMs/Playlist_HighExplosives.Playlist_HighExplosives
+/Game/Athena/Playlists/LTMs/Playlist_StormKing.Playlist_StormKing
 ```
 
-### Close Encounters  
-`ch1s4 -> ch3s1`
+---
+
+## Operation Modes (Spy Games)
+
 ```
-/Game/Athena/Playlists/LTMs/Playlist_CloseEncounters.Playlist_CloseEncounters
+/Game/Athena/Playlists/LTMs/Playlist_Operation_Dropzone.Playlist_Operation_Dropzone
+/Game/Athena/Playlists/LTMs/Playlist_Operation_Knockout.Playlist_Operation_Knockout
+/Game/Athena/Playlists/LTMs/Playlist_Operation_Payload.Playlist_Operation_Payload
 ```
 
-### Food Fight  
-`ch1s6 -> ch2s1`
+---
+
+## Marvel Takeover
+
 ```
-/Game/Athena/Playlists/LTMs/Playlist_FoodFight.Playlist_FoodFight
+/Game/Athena/Playlists/LTMs/Playlist_MarvelTakeover.Playlist_MarvelTakeover
 ```
 
-### Air Royale  
-`ch1s7 -> ch2s3`
+---
+
+## Horde Rush
+
 ```
-/Game/Athena/Playlists/LTMs/Playlist_AirRoyale.Playlist_AirRoyale
+/Game/Athena/Playlists/LTMs/Playlist_HordeRush.Playlist_HordeRush
 ```
 
-### Floor Is Lava  
-`ch1s8 -> ch1s9, ch2s8, ch4s1, ch5s1`
-```
-/Game/Athena/Playlists/LTMs/Playlist_Lava.Playlist_Lava
-```
+---
 
-</details>
+## Impostors
+
+```
+/Game/Athena/Playlists/Playlist_Impostor.Playlist_Impostor
+```
 
 ---
 
 # Competitive Formats
 
 ## FNCS
-`ch1sX -> ch7s1`
 ```
 /Game/Athena/Playlists/Showdown/Playlist_FNCS.Playlist_FNCS
 ```
 
+## World Cup Online Open
+```
+/Game/Athena/Playlists/Showdown/Playlist_WorldCup.Playlist_WorldCup
+```
+
 ## Solo Cash Cup
-`ch1s8 -> ch7s1`
 ```
 /Game/Athena/Playlists/Showdown/Playlist_CashCup_Solo.Playlist_CashCup_Solo
 ```
 
 ## Duos Cash Cup
-`ch1s8 -> ch7s1`
 ```
 /Game/Athena/Playlists/Showdown/Playlist_CashCup_Duos.Playlist_CashCup_Duos
 ```
 
-## Trios Cash Cup
-`ch2s5 -> ch3s4`
+## Contender Cup
 ```
-/Game/Athena/Playlists/Showdown/Playlist_CashCup_Trios.Playlist_CashCup_Trios
+/Game/Athena/Playlists/Showdown/Playlist_ContenderCup.Playlist_ContenderCup
 ```
 
-## Zero Build Cash Cup
-`ch3s2 -> ch7s1`
+## Victory Cash Cup
 ```
-/Game/Athena/Playlists/Showdown/Playlist_ZBCashCup.Playlist_ZBCashCup
+/Game/Athena/Playlists/Showdown/Playlist_VictoryCashCup.Playlist_VictoryCashCup
 ```
 
 ---
 
-# Modern Expansion Modes (ch5 -> ch7)
+# Expansion Modes (Ch5 → Present)
 
 ## Rocket Racing
-`ch5s1 -> ch7s1`
 ```
 /Game/Racing/Playlists/Playlist_RocketRacing.Playlist_RocketRacing
 ```
 
 ## LEGO Fortnite
-`ch5s1 -> ch7s1`
 ```
 /Game/LEGO/Playlists/Playlist_LegoSurvival.Playlist_LegoSurvival
 ```
 
 ## Fortnite Festival
-`ch5s1 -> ch7s1`
 ```
 /Game/Festival/Playlists/Playlist_FestivalMain.Playlist_FestivalMain
 ```
 
 ---
 
-End of Archive  
-Maintained for documentation & historical reference.
+End of Archive.
+Maintained for historical documentation and structural reference.
