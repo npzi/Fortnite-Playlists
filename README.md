@@ -4,11 +4,11 @@
 ![Coverage](https://img.shields.io/badge/Coverage-ch1s0%20→%20ch7s1-success)
 ![Type](https://img.shields.io/badge/Type-Core%20%7C%20LTMs%20%7C%20Competitive-informational)
 
-Comprehensive historical archive of Fortnite public playlists, including core modes, LTMs, Arena, Ranked, and competitive tournament formats.
+Comprehensive historical archive of Fortnite public playlists including core modes, LTMs, Arena, Ranked, and competitive tournament formats.
 
 ---
 
-## Navigation
+## 📚 Navigation
 
 - [Core Battle Royale](#core-battle-royale)
 - [Zero Build](#zero-build)
@@ -45,7 +45,9 @@ Comprehensive historical archive of Fortnite public playlists, including core mo
 
 ---
 
-# Zero Build (ch3s2 → ch7s1)
+# Zero Build
+
+(ch3s2 → ch7s1)
 
 ```
 /Game/Athena/Playlists/Playlist_NoBuildSolo.Playlist_NoBuildSolo
@@ -79,7 +81,9 @@ Comprehensive historical archive of Fortnite public playlists, including core mo
 
 ---
 
-# Arena (ch1s8 → ch4s2)
+# Arena
+
+(ch1s8 → ch4s2)
 
 ```
 /Game/Athena/Playlists/Showdown/Playlist_Showdown_Solo.Playlist_Showdown_Solo
@@ -89,7 +93,9 @@ Comprehensive historical archive of Fortnite public playlists, including core mo
 
 ---
 
-# Ranked (ch4s3 → ch7s1)
+# Ranked
+
+(ch4s3 → ch7s1)
 
 ```
 /Game/Athena/Playlists/Playlist_Ranked_Solo.Playlist_Ranked_Solo
@@ -102,8 +108,6 @@ Comprehensive historical archive of Fortnite public playlists, including core mo
 
 # Limited Time Modes
 
----
-
 ## Solid Gold (ch1s3 → ch7s1)
 
 Solo / Duos / Squads / 50s  
@@ -113,8 +117,6 @@ Solo / Duos / Squads / 50s
 /Game/Athena/Playlists/LTMs/Playlist_SolidGold_Squads.Playlist_SolidGold_Squads
 /Game/Athena/Playlists/LTMs/Playlist_SolidGold_50s.Playlist_SolidGold_50s
 ```
-
----
 
 ## High Explosives (ch1s4 → ch7s1)
 
@@ -126,8 +128,6 @@ Solo / Duos / Squads / 50s
 /Game/Athena/Playlists/LTMs/Playlist_HighExplosives_50s.Playlist_HighExplosives_50s
 ```
 
----
-
 ## Siphon (ch1s7 → ch2s1)
 
 Solo / Duos / Squads  
@@ -136,8 +136,6 @@ Solo / Duos / Squads
 /Game/Athena/Playlists/LTMs/Playlist_Siphon_Duos.Playlist_Siphon_Duos
 /Game/Athena/Playlists/LTMs/Playlist_Siphon_Squads.Playlist_Siphon_Squads
 ```
-
----
 
 ## Sniper Shootout (ch1s2 → ch3s4)
 
@@ -148,19 +146,6 @@ Solo / Duos / Squads
 /Game/Athena/Playlists/LTMs/Playlist_Sniper_Squads.Playlist_Sniper_Squads
 ```
 
----
-
-## One Shot (ch1s3 → ch4s4)
-
-Solo / Duos / Squads  
-```
-/Game/Athena/Playlists/LTMs/Playlist_OneShot_Solo.Playlist_OneShot_Solo
-/Game/Athena/Playlists/LTMs/Playlist_OneShot_Duos.Playlist_OneShot_Duos
-/Game/Athena/Playlists/LTMs/Playlist_OneShot_Squads.Playlist_OneShot_Squads
-```
-
----
-
 ## Floor Is Lava (ch1s8 → ch5s1)
 
 Duos / Squads  
@@ -169,15 +154,11 @@ Duos / Squads
 /Game/Athena/Playlists/LTMs/Playlist_Lava_Squads.Playlist_Lava_Squads
 ```
 
----
-
 ## 50v50 (ch1s3 → ch1s9, ch4sOG)
 
 ```
 /Game/Athena/Playlists/LTMs/Playlist_50v50.Playlist_50v50
 ```
-
----
 
 ## Food Fight (ch1s6 → ch2s1)
 
@@ -185,15 +166,11 @@ Duos / Squads
 /Game/Athena/Playlists/LTMs/Playlist_FoodFight.Playlist_FoodFight
 ```
 
----
-
 ## Air Royale (ch1s8 → ch4s3)
 
 ```
 /Game/Athena/Playlists/LTMs/Playlist_AirRoyale.Playlist_AirRoyale
 ```
-
----
 
 ## The Getaway (ch1s5 → ch2s8)
 
@@ -201,44 +178,10 @@ Duos / Squads
 /Game/Athena/Playlists/LTMs/Playlist_Getaway.Playlist_Getaway
 ```
 
----
-
 ## Wick’s Bounty (ch1s9, ch4s4)
 
 ```
 /Game/Athena/Playlists/LTMs/Playlist_WicksBounty.Playlist_WicksBounty
-```
-
----
-
-## Blitz (ch1s4 → ch1s6)
-
-```
-/Game/Athena/Playlists/LTMs/Playlist_Blitz.Playlist_Blitz
-```
-
----
-
-## Ground Game (ch1s8 → ch2s4)
-
-```
-/Game/Athena/Playlists/LTMs/Playlist_GroundGame.Playlist_GroundGame
-```
-
----
-
-## Horde Rush (ch2s8 → ch3s4)
-
-```
-/Game/Athena/Playlists/LTMs/Playlist_HordeRush.Playlist_HordeRush
-```
-
----
-
-## Impostors (ch2s7 → ch3s2)
-
-```
-/Game/Athena/Playlists/Playlist_Impostor.Playlist_Impostor
 ```
 
 ---
@@ -252,11 +195,8 @@ Duos / Squads
 /Game/Athena/Playlists/Showdown/Playlist_Showdown_WorldCup_Duos.Playlist_Showdown_WorldCup_Duos
 ```
 
----
-
 ## FNCS (ch2s1 → ch7s1)
 
-Solo Invitational / Duos / Trios / Squads  
 ```
 /Game/Athena/Playlists/Showdown/Playlist_Showdown_FNCS_Solo.Playlist_Showdown_FNCS_Solo
 /Game/Athena/Playlists/Showdown/Playlist_Showdown_FNCS_Duos.Playlist_Showdown_FNCS_Duos
@@ -264,11 +204,8 @@ Solo Invitational / Duos / Trios / Squads
 /Game/Athena/Playlists/Showdown/Playlist_Showdown_FNCS_Squads.Playlist_Showdown_FNCS_Squads
 ```
 
----
-
 ## Cash Cups (ch1s8 → ch7s1)
 
-Solo / Duos / Trios / Zero Build  
 ```
 /Game/Athena/Playlists/Showdown/Playlist_Showdown_Solo.Playlist_Showdown_Solo
 /Game/Athena/Playlists/Showdown/Playlist_Showdown_Duos.Playlist_Showdown_Duos
@@ -276,22 +213,16 @@ Solo / Duos / Trios / Zero Build
 /Game/Athena/Playlists/Showdown/Playlist_Showdown_ZeroBuild_Solo.Playlist_Showdown_ZeroBuild_Solo
 ```
 
----
-
 ## Division Cups (ch2s1 → ch7s1)
 
-Contender / Challenger / Hype  
 ```
 /Game/Athena/Playlists/Showdown/Playlist_Showdown_Contender_Solo.Playlist_Showdown_Contender_Solo
 /Game/Athena/Playlists/Showdown/Playlist_Showdown_Challenger.Playlist_Showdown_Challenger
 /Game/Athena/Playlists/Showdown/Playlist_Showdown_Hype.Playlist_Showdown_Hype
 ```
 
----
-
 ## Platform Cups (ch2s1 → ch7s1)
 
-PlayStation / Xbox / Console Champions  
 ```
 /Game/Athena/Playlists/Showdown/Playlist_Showdown_PS4Cup.Playlist_Showdown_PS4Cup
 /Game/Athena/Playlists/Showdown/Playlist_Showdown_XboxCup.Playlist_Showdown_XboxCup
@@ -300,7 +231,9 @@ PlayStation / Xbox / Console Champions
 
 ---
 
-# Expansion Modes (ch5s1 → ch7s1)
+# Expansion Modes
+
+(ch5s1 → ch7s1)
 
 ## LEGO Fortnite
 ```
